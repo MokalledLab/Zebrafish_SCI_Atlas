@@ -1,0 +1,22 @@
+vms20_3a_F1_L1_Dapi-gad1b-chGFP488-vglut2-rbRFP594-syt11b-B3-647_3D_Total HCR Signal, 326966
+Result of Result of C1-vms20_3a_F1_L1_Dapi-gad1b-chGFP488-vglut2-rbRFP594-syt11b-B3-647_3D-1.czi_HCR inside celltype, 27349
+vms20_3a_F2_L1_Dapi-gad1b-chGFP488-vglut2-rbRFP594-syt11b-B3-647_3D_Total HCR Signal, 275104
+Result of Result of C1-vms20_3a_F2_L1_Dapi-gad1b-chGFP488-vglut2-rbRFP594-syt11b-B3-647_3D-1.czi_HCR inside celltype, 10555
+vms20_3a_F3_L1_Dapi-gad1b-chGFP488-vglut2-rbRFP594-syt11b-B3-647_3D_Total HCR Signal, 382048
+Result of Result of C1-vms20_3a_F3_L1_Dapi-gad1b-chGFP488-vglut2-rbRFP594-syt11b-B3-647_3D-1.czi_HCR inside celltype, 12622.0000
+vms20_3b_F1_L1_Dapi-gad1b-chGFP488-vglut2-rbRFP594-syt11b-B3-647_3D_Total HCR Signal, 207874
+Result of Result of C1-vms20_3b_F1_L1_Dapi-gad1b-chGFP488-vglut2-rbRFP594-syt11b-B3-647_3D-1.czi_HCR inside celltype, 3878
+vms20_3b_F2_L1_Dapi-gad1b-chGFP488-vglut2-rbRFP594-syt11b-B3-647_3D_Total HCR Signal, 168152
+Result of Result of C1-vms20_3b_F2_L1_Dapi-gad1b-chGFP488-vglut2-rbRFP594-syt11b-B3-647_3D-1.czi_HCR inside celltype, 4403
+vms20_3c_F1_L1_Dapi-gad1b-chGFP488-vglut2-rbRFP594-syt11b-B3-647_3D_Total HCR Signal, 308752
+Result of Result of C1-vms20_3c_F1_L1_Dapi-gad1b-chGFP488-vglut2-rbRFP594-syt11b-B3-647_3D-1.czi_HCR inside celltype, 16322
+vms20_3c_F2_L1_Dapi-gad1b-chGFP488-vglut2-rbRFP594-syt11b-B3-647_3D_Total HCR Signal, 338467
+Result of Result of C1-vms20_3c_F2_L1_Dapi-gad1b-chGFP488-vglut2-rbRFP594-syt11b-B3-647_3D-1.czi_HCR inside celltype, 12448
+vms20_3c_F3_L1_Dapi-gad1b-chGFP488-vglut2-rbRFP594-syt11b-B3-647_3D_Total HCR Signal, 226057
+Result of Result of C1-vms20_3c_F3_L1_Dapi-gad1b-chGFP488-vglut2-rbRFP594-syt11b-B3-647_3D-1.czi_HCR inside celltype, 14071
+vms20_3d_F1_L1_Dapi-gad1b-chGFP488-vglut2-rbRFP594-syt11b-B3-647_3D_Total HCR Signal, 448685
+Result of Result of C1-vms20_3d_F1_L1_Dapi-gad1b-chGFP488-vglut2-rbRFP594-syt11b-B3-647_3D-1.czi_HCR inside celltype, 31997.0000
+vms20_3d_F2_L1_Dapi-gad1b-chGFP488-vglut2-rbRFP594-syt11b-B3-647_3D_Total HCR Signal, 405478
+Result of Result of C1-vms20_3d_F2_L1_Dapi-gad1b-chGFP488-vglut2-rbRFP594-syt11b-B3-647_3D-1.czi_HCR inside celltype, 38686
+vms20_3d_F3_L1_Dapi-gad1b-chGFP488-vglut2-rbRFP594-syt11b-B3-647_3D_Total HCR Signal, 572747
+Result of Result of C1-vms20_3d_F3_L1_Dapi-gad1b-chGFP488-vglut2-rbRFP594-syt11b-B3-647_3D-1.czi_HCR inside celltype, 31224
