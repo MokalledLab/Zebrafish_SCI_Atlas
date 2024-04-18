@@ -4,19 +4,19 @@ To run the Fiji Script, you need to install Fiji on your sytem from this link : 
 
 ## Instructions to Run
 
-1. Open Fiji and then, drag and drop this script (hcr_celltypespecific_analysis_v3.1_080222.ijm) on Fiji software. This will open the script for your
+1. Open Fiji and then, drag and drop this script (hcr_celltypespecific_analysis_v3.1_080222.ijm) on Fiji software. This will open the script.
 2. Hit Run button at the bottom.
-3. This will ask you open the folder where the files to be quantified are located
-4. Then dialogue prompt will apper asking channel numbers which contain the nuclei, the signal to be quantified and the celltype specific channel. You cannot leave the celltype channel empty here.
-5. Then the macro will open the nuclei channels and asks you to draw across the region to be quantified.Then click OK
-6. Now, the macro will ask to pain over any non-specific signal present in your image. Click OK
-7. Now you have to set threshold for the signal that needs to be quantified. Adjust the threshold in such a way that you select lease amount of background noise. Click OK
-8. Now, the macro will ask you to threshold the cell type signal that you want to quantify the amount of you HCR signal present inside. Click OK. You cannot have empty channel here. 
+3. This will ask you to open the folder where the files to be quantified are located.
+4. Then, a dialogue prompt will apper asking channel numbers which contain the nuclei, the signal to be quantified and the celltype specific channel. You cannot leave anything empty here.
+5. Then, the macro will open the nuclei channel and asks you to draw across the region to be quantified.Then, click OK
+6. Now, the macro will ask to paint over any non-specific signal present in your image. You don't have paint if there is none. Click OK
+7. Now you have to set threshold for the signal that needs to be quantified. Adjust the threshold in such a way that you select least amount of background noise. Click OK
+8. Now, the macro will ask you to threshold the cell type signal that you want to quantify the amount of your HCR signal present inside. Click OK. You cannot have empty channel here. 
 9. Repeat the steps for all the images present in the folder. 
 
-After finishing the quantification, a folder named HCR quantification files will be generated. Inside that files, you can find different quantification measurement in the files Quantification_summary.csv and Rawintensity_sum.txt. This marco will also pseudocolor the HCR and overlay it on the cell specific channel that you selected. 
+After finishing the quantification, a folder named HCR quantification files will be generated. Inside that files, you can find different quantification measurement in the files Quantification_summary.csv and Rawintensity_sum.txt. This marco will also pseudocolor the HCR and overlay it on the cell type specific channel that you selected. 
 
-Check out the input and output folder here to see the results. 
+Check the input and output folder given here to see the results. 
 
 ### Limitations
 The script can only quantify a single plane image and not image stacks. If you have image stack, you have to make orthogonal projection to make them a single plane.
