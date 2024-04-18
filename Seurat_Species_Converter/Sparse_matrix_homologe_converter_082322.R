@@ -12,7 +12,7 @@ future::plan("multicore", workers = 4)
 #this can convert multiple rds file into respective species orthologues. So give the list of rds file names here.
 file.list<- c("ekab_uninj136_complete_control.rds", "ekab_uninj136_complete_1 wpi.rds","ekab_uninj136_complete_3 wpi.rds","ekab_uninj136_complete_6 wpi.rds")
 #give the species name that you want to convert here. Its normally first letter of the genus name with species name -all small letters and no spaces. 
-species.name.to.convert<-"hsapiens" #must be compatible with biomaRT package ensemble species name eg. hsapiens for humans
+species.name.to.convert<-"hsapiens" #must be compatible with biomaRT package ensemble species name eg. hsapiens for humans, mmusculus for mouse.
 ##########################################################################################################################
 
 
