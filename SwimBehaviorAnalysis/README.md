@@ -1,7 +1,7 @@
 Swim behaviour analysis is performed in two steps as described in the following paper (https://app.jove.com/t/63240/assessment-of-swim-endurance-and-swim-behavior-in-adult-zebrafish).
 
 # System requirements.
-To avi file, you need a windows system. 
+To generate an avi file, you need a windows system. 
 
 To run the Fiji Script, you need to install Fiji on your sytem from this link : https://imagej.net/software/fiji/downloads. 
 To Run the R script:
