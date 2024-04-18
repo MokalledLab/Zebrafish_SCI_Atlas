@@ -57,14 +57,14 @@ loaded via a namespace (and not attached):
 
 # Instructions to Run
 
-Open the R script in R studio. Set the directory as the folder where you saved all the .rds files that needs conversion
+Open the R script in R studio. Set the directory as the folder where you saved all the .rds files that need conversion
 
 By default, this R script will convert the data slot of your seurat object in the RNA assay ( Defined in line 113:  zebra.data<- zebra@assays$RNA@data). You can easily convert any slot by changing
-the slot name instead of "data" in line 113. But give the same slot name in line 123 as well:  CreateAssayObject(data = convert.data). For e.g., if I want to convert the counts slot, following will be me codes
+the slot name instead of "data" in line 113. But give the same slot name in line 123 as well:  CreateAssayObject(data = convert.data). For e.g., if I want to convert the counts slot, following will be my codes
  113:  zebra.data<- zebra@assays$RNA@counts
  123:  zebra[["RNA"]]<- CreateAssayObject(counts = convert.data)
 
- Now you have to edit the user input sections: line 13 and line 15. By default this script convert from zebrafish data to any species of your selection from the ensemble genome database. You can provide list of all the 
+ Now you have to edit the user input sections: line 13 and line 15. By default this script convert from zebrafish data to any species of your selection from the ensemble genome database. You can provide a list of all the 
  seurat objects (.rds files) separated by comma in line 13 and give the species to convert name in line 15. Save the R script and hit source button. 
 
 
@@ -78,5 +78,5 @@ the slot name instead of "data" in line 113. But give the same slot name in line
 
  ## Defined set of rules to convert zebrafish dataset to species of choice. 
 
-The following rules were applied while converting the data matrix: 1) one-to-one orthologue mapping was performed whenever possible, 2) For genes with one to several human orthologues, the corresponding zebrafish RNA data value was copied to every mapped gene in humans, 3) RNA data values were eliminated for zebrafish genes that did not have any human orthologue, 4) RNA data values of paralogous zebrafish genes were added and the cumulative data value was assigned to the human orthologue 
+The following rules were applied while converting the data matrix from zebrafish to human: 1) one-to-one orthologue mapping was performed whenever possible, 2) For genes with one to several human orthologues, the corresponding zebrafish RNA data value was copied to every mapped gene in humans, 3) RNA data values were eliminated for zebrafish genes that did not have any human orthologue, 4) RNA data values of paralogous zebrafish genes were added and the cumulative data value was assigned to the human orthologue 
  
