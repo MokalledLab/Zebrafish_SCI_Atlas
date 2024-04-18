@@ -8,7 +8,7 @@ Cell counting on spinal cord section is performed in two steps. The first step u
 
 ## DE Marker Scoring
 
-This is R script that performs quantification of overlap between two list of genes. The list of genes genes are read from two different excel files. Then it calculates binomial probabilities using hypergeometric distribution.
+This is R script that performs quantification of overlap between two list of genes. The list of genes are read from two different excel files. Then it calculates binomial probabilities using hypergeometric distribution.
 
 ## HCR Quantification
 
@@ -16,11 +16,11 @@ This is a Fiji script that will take .czi files from Zen software as input and q
 
 ## Seurat_Species_Converter
 
-This is an R script which convertes the gene names count or data slot inside your seurat object to an homologous species of your choice. The input will be a seurat object as .rds file. The script uses biomart to identify orthologous genes
+This is an R script which convertes the gene names of count or data slot inside your seurat object to an orthologous species of your choice. The input will be a seurat object as .rds file. The script uses biomart to identify orthologous genes.
 
 ## Swim Behavior analysis
 
-Swim behaviour analysis is performed in two steps as described in the following paper (https://app.jove.com/t/63240/assessment-of-swim-endurance-and-swim-behavior-in-adult-zebrafish). The fiji script will track the videos and then, the R script will process the output from the Fiji script to provide different swim matric for different groups. 
+Swim behaviour analysis is performed in two steps as described in the following paper (https://app.jove.com/t/63240/assessment-of-swim-endurance-and-swim-behavior-in-adult-zebrafish). The fiji script will track the videos and then, the R script will process the output from the Fiji script to provide different swim matrics for different groups. 
 
 Visit individual folders for more details. 
 
