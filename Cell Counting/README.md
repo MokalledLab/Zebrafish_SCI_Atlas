@@ -1,4 +1,4 @@
-## System requirement
+## System requirements
 
 To run the Fiji Script, you need to install Fiji on your sytem from this link : https://imagej.net/software/fiji/downloads. The plugin ICTN_.jar (provided here) need to be installed in your fiji. 
 
@@ -33,7 +33,7 @@ loaded via a namespace (and not attached):
 [17] rlang_1.1.3     
 
 
-## Instruction to run
+## Instructions to run
 
 This protocol is intended for counting cells in spinal cord sections which contain cell-type-specific markers. The approach identifies all nuclei in a specified region (e.g. the spinal cord) and then asks whether those nuclei overlap with markers in other channels. This method works with cell-type-specific markers that label either the nucleus (e.g. Sox2) or the whole cell (e.g. HuC). 
 
