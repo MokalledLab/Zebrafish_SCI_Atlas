@@ -49,10 +49,10 @@ loaded via a namespace (and not attached):
 
 
 # Instructions to run
-1. Open the script in R studio and set the work directory as the folder where you save your reference file vs comparison file
-2. In the case of cluster identification, I have a marker database (Supplementary table S1_Celltype marker database_full spinalcord_022624.xlsx) which is the reference folder and the top DE expressed markers as comparison file (Supplementary table S4_topDEmarkers_onlypos_res0.4_fulldataset_022624.xlsx).
-3. Then, I need to define the maximum number of genes expected in your comparisons (code line 65). Since, I am comparing different list of genes in zebrafish genome, I have given total number genes present in the latest assembly as this number.
+1. Open the script in R studio and set the work directory as the folder where you saved your reference file and comparison file
+2. In the case of cluster identification, I have a marker database (Supplementary table S1_Celltype marker database_full spinalcord_022624.xlsx) which is the reference file and the top DE expressed markers as comparison file (Supplementary table S4_topDEmarkers_onlypos_res0.4_fulldataset_022624.xlsx).
+3. Then, I need to define the maximum number of genes expected in your comparisons (code line 65). Since, I am comparing different list of genes in the zebrafish genome, I have given total number genes present in the latest assembly as this number.
 4. Click "Source" button on the top right hand side of the R-studio.
-5. This should give your two output excel files
+5. This should give you two excel files as output.
      - marker.scoring_ hypergeometric probability.xlsx - contain different sheets consisting of scores obtained from your comparion as well the binomial probabilities.
      - markers_identified_ hypergeometric probability.xlsx - contains markers identified for each cluster against each reference cell type.  
