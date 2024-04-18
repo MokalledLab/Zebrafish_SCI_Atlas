@@ -21,6 +21,5 @@ Check the input and output folder given here to see the results.
 ### Limitations
 The script can only quantify a single plane image and not image stacks. If you have image stack, you have to make orthogonal projection to make them a single plane.
 //This v3 version of the hcr program quantifies the overall HCR signal as well as the signal inside your cell type of interest. v3 doesn't need a background channel to run quantification. 
-//if you have a background channel please use the v2 version
 //Two caveats of this script:  you can't leave your cell specific channel empty. Make sure to threshold some pixel otherwise it will throw an error. 
 //also you can only quantify  one hcr channel at a time.
