@@ -2,7 +2,7 @@
 
 To run the Fiji Script, you need to install Fiji on your sytem from this link : https://imagej.net/software/fiji/downloads.
 
-##Instructions to Run
+## Instructions to Run
 
 #### Limitations
 The script can only quantify a single plane image and not image stacks. If you have image stack, you have to make orthogonal projection to make them a single plane.
@@ -19,7 +19,7 @@ The script can only quantify a single plane image and not image stacks. If you h
 5. Then the macro will open the nuclei channels and asks you to draw across the region to be quantified.Then click OK
 6. Now, the macro will ask to pain over any non-specific signal present in your image. Click OK
 7. Now you have to set threshold for the signal that needs to be quantified. Adjust the threshold in such a way that you select lease amount of background noise. Click OK
-8. Now, the macro will ask you to threshold the cell type signal that you want to quantify the amount of you HCR signal present inside. Click OK
+8. Now, the macro will ask you to threshold the cell type signal that you want to quantify the amount of you HCR signal present inside. Click OK. You cannot have empty channel here. 
 9. Repeat the steps for all the images present in the folder. 
 
 After finishing the quantification, a folder named HCR quantification files will be generated. Inside that files, you can find different quantification measurement in the files Quantification_summary.csv and Rawintensity_sum.txt. This marco will also pseudocolor the HCR and overlay it on the cell specific channel that you selected. 
