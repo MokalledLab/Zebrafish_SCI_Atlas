@@ -36,11 +36,7 @@ loaded via a namespace (and not attached):
 ## Instruction to run
 
 This protocol is intended for counting cells in spinal cord sections which contain cell-type-specific markers. The approach identifies all nuclei in a specified region (e.g. the spinal cord) and then asks whether those nuclei overlap with markers in other channels. This method works with cell-type-specific markers that label either the nucleus (e.g. Sox2) or the whole cell (e.g. HuC). 
-Workflow:
 
-![image](https://github.com/MokalledLab/Zebrafish_SCI_Atlas/assets/81267539/87bd5159-511f-4ce4-9fd8-2619b3b2eaa8)
-
- 
 Acquiring Images
 This protocol is not intended to cover the usage of the confocal microscope. Rather, here are some important things to consider during image acquisition:
 •	IMPORTANT: Use the following standardized naming format for the raw images.
