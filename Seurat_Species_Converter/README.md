@@ -72,7 +72,8 @@ the slot name instead of "data" in line 113. But give the same slot name in line
 
  A new RDS file with convert seurat object will be created. And this new RDS will be over writing the existing RNA data with new converted data and then saving the rds file with a new name.
 
- ## Run time will vary depending on the size of the dataset. A dataset with 20k cells will take around 2 hrs to finish converting.
+ ## Run time 
+ This will vary depending on the size of the dataset. A dataset with 20k cells will take around 2 hrs to finish converting.
 
 
  ## Defined set of rules to convert zebrafish dataset to species of choice. 
