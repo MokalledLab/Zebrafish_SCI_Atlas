@@ -51,7 +51,7 @@ Note: Before you start this analysis you will need to know which marker is prese
 Get raw counts with ImageJ: 
 1.	Open Fiji
 2.	Click “Plugins” > “Macros” > “Run”
-3.	Select the latest version of “Cell_Counter.ijm” in LAB MEMBERS/SHARED/Code for Custom Analyses/
+3.	Select the latest version of “Cell_Counter.ijm”.
 4.	Follow the on-screen instructions:
 a.	Select the folder containing the “.czi” files you would like to count. If the folder contains a mixture of “_3D.czi” and “.czi” files, then only those files with “3D” in their name will be used. If the folder contains no files with “3D” in their name, then all single plane “.czi” files will be used.
 b.	Identify the marker in each channel.
@@ -70,7 +70,7 @@ iii.	Optimize the settings in the ITCN counter. Start with the following values:
 Note: ITCN performs well at counting nuclei, but it is not perfect especially when there are nuclei of varying intensity and size (as in the spinal cord). At some point you have to leave good enough alone. Usually it is fine to use the same parameters for all images in a batch.
 iv.	Adjust the threshold for each marker. If you selected “Same threshold” above, then you will only need to set the threshold for the first image. 
 5.	The output from “Cell_Counter.ijm” is a “Results” folder containing:
-a.	Individual images for each channel showing the overlap of nuclei and the marker. (Note: For some odd reason, the output images do not all have the same color scheme…I don’t know why. It doesn’t affect the results). 
+a.	Individual images for each channel showing the overlap of nuclei and the marker.
 b.	A “.csv” file containing the raw counts for each channel.
 Process raw counts with R: 
 Now that we have the raw counts, we can use R to reorganize the data and provide us with a final count for all possible combinations of markers.
