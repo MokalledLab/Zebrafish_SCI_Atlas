@@ -28,5 +28,4 @@ Visit individual folders for more details.
 
 If you find any of these codes useful for you, please cite
 
-DOI: 10.5281/zenodo.11585743
 [![DOI](https://zenodo.org/badge/657303962.svg)](https://zenodo.org/doi/10.5281/zenodo.11585742)
